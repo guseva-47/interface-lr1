@@ -1,0 +1,47 @@
+/* Цветовая схема : https://colorscheme.ru/#3j31Td5xSw0w0 */
+
+.lol {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#header {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#img {
+    background-color:darksalmon;
+}
+.navbar {
+    background-color: #5f9ea0
+}
+
+.btn-outline-darksalmon {
+    color: #BF8685;
+    border-color: #BF8685;
+}
+.btn-outline-darksalmon:hover {
+    border-color: #BF8685;
+    background-color: #BF8685;
+    color: white;
+}
+
+.p-of-accordion {
+    padding-bottom: 10px;;
+}
+
+.person-block {
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 5px;
+    background-color: #cfe2e2;
+}
+.icon {
+    width: 60px; 
+    height: 60px;
+    background: #cccccc;
+    border-radius: 50%;
+    margin: 5px;
+}
+
