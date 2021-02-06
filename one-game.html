@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="person-block row" >
-                    <a class="btn btn w-100" href="#" id="add-button">+ Пригласить игрока</a>
+                    <a class="btn btn w-100" href="#" id="add-button" data-bs-toggle="modal" data-bs-target="#addPlayersModal">+ Пригласить игрока</a>
                     <hr>
                     <div class="col">
                         <img class="icon" src="http://placehold.it/100x100" alt="">
@@ -64,6 +64,81 @@
                             <p> Иванов Иван</p>
                         </div>
                     </div>
+                    <hr style="margin-bottom: 0; margin-top: 5px;">
+                    <a class="btn btn w-100" href="#" id="add-button" id="add-button" data-bs-toggle="modal" data-bs-target="#deletePlayersModal">- Удалить игрока</a>
+
+                    <!-- Modal пиглашение (добавление) игроков -->
+                    <div class="modal fade" id="addPlayersModal" tabindex="-1" aria-labelledby="addPlayersLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Пригласить игрока</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="name1">
+                                    <label class="form-check-label" for="name1">
+                                    Аннова Анна
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="name2">
+                                    <label class="form-check-label" for="name2">
+                                    Маринина Марина
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                <button type="button" class="btn btn-primary">Пригласить</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal удаление игроков -->
+                    <div class="modal fade" id="deletePlayersModal" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Удалить игрока</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="name33">
+                                    <label class="form-check-label" for="name33">
+                                    Иванов Иван
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="name44">
+                                    <label class="form-check-label" for="name44">
+                                    Ивнов Иван
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="name55">
+                                    <label class="form-check-label" for="name55">
+                                    Ивнов Иван
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="name66">
+                                    <label class="form-check-label" for="name66">
+                                    Ивнов Иван
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                <button type="button" class="btn btn-primary">Пригласить</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="lol col-xxl-8 offset-xxl-1 
